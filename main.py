@@ -186,10 +186,7 @@ else:
     
     
     ab = binary(a)
-    bb = binary(b)
-    
-    print("decimal: ", a, '. binary: ', ab)
-    print("decimal: ", b, '. binary: ', bb)
+    bb = binary(b)   
     
     
     if c == '1':
@@ -210,5 +207,5 @@ else:
     
     rd = decimal(r)
     
-    print('Result in binary:', r)
-    print('Result in decimal:', rd)
+    print('binary:', r)
+    print('decimal:', rd)
